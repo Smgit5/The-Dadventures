@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: lightcoral;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: goldenrod; */
+}
+
+#card {
+    min-width: 660px;
+    height: 314px;
+    padding: 0.6rem;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 4rem;
+}
+
+#btnDiv > button {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: rosybrown;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+#card button:hover {
+    transform: scale(1.05);
+}
+#prev {
+    display: none;
+}
+
+#card h3 {
+    color: rosybrown;
+}
+#colouredHeading {
+    color: darkorange;
+    font-style: italic;
+}
